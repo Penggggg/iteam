@@ -1,0 +1,13 @@
+{
+  "vsicons.presets.angular": false,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.tabSize": 4,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/**.interface.js": true,
+    "**/**.controller.js": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "scripthost",
+            "es6"
+
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "web"
+    ]
+}
