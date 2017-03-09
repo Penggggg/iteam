@@ -1,16 +1,15 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
         "target": "es5",
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "sourceMap": false,
-        "jsx": "react",
+        "jsx": "preserve",
         "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
         "lib": [
             "dom",
             "scripthost",
             "es6"
-
         ]
     },
     "exclude": [
